@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ONGHub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="m-0 section-title"> ONGHub</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+                </span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre-o-site" class="nav-link">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#como-ajudar" class="nav-link">Como ajudar?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#ongs" class="nav-link">Conheça as ONGs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link">Fale Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="carrossel">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="carousel/slide1.png" class="d-block w-100" alt="pessoas ajudando um cachorro">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="carousel/slide2.png" class="d-block w-100" alt="pessoas arrecadando roupas">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="carousel/slide3.png" class="d-block w-100" alt="lixeira de reciclagem">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="carousel/slide4.png" class="d-block w-100" alt="pessoas segurando bandeira lgbtqia">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="carousel/slide5.png" class="d-block w-100" alt="pessoa doando comida">
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+        </div>
+    </section>
+
+    <section id="sobre-o-site">
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 pb-2">
+                        <img src="./LATERAL.png" alt="">
+                    </div>
+
+                    <div class="col-md-9">
+                        <h2 class="fw-bold section-title">Sobre o projeto</h2>
+                        <p>
+                            A importância de ajudar organizações não governamentais (ONGs) reside na capacidade dessas instituições em desempenhar um papel crucial na promoção do bem-estar social, na mitigação de problemas globais e na construção de comunidades mais justas e sustentáveis.  A colaboração entre governos, setor privado e indivíduos é essencial para enfrentar os desafios complexos que enfrentamos como sociedade global. 
+                            Considerando esses pontos, o projeto nasceu como uma forma de auxiliar pessoas que querem ajudar a mudar o mundo, mas não sabem por onde começar. Aqui você encontra diversas ONGs e como ajudar. Juntos somos mais fortes!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="como-ajudar">
+        <div class="container pb-5 ">
+            <h2 class="text-center pb-4 pt-4 fw-bold section-title">Como ajudar?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <h4 class="pb-3">Doando tempo</h4>
+                    <p>Que tal dar um rolê diferente e investir tempo para mudar vidas? Ajudar ONGs é mais fácil do que pedir delivery! Seja um voluntário, participe de eventos ou ajude online – as opções são tão flexíveis quanto o seu horário de almoço. Sem dramas, só vibes positivas. Faça parte dessa corrente do bem e deixe sua marca!</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4 class="pb-3">Divulgando</h4>
+                    <p>Bora fazer barulho pelo bem! Usar a divulgação nas redes sociais é tipo ser o herói das ONGs. Compartilhe causas, eventos e histórias inspiradoras. Hashtags são suas superpoderosas aliadas, então abuse! Transforme sua timeline numa vitrine de solidariedade.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h4 class="pb-3">Doando alguma quantia</h4>
+                    <p>Bora fazer a grana ser o superpoder das ONGs! Soltar uns trocados é mais fácil do que pedir um café. Escolha uma causa que faça seu coração bater mais forte, encha o carrinho virtual e seja o herói sem capa que essas organizações precisam. Afinal, ajudar não precisa ser complicado, só é preciso um clique e um coração generoso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ongs">
+        <div class="container pb-5">
+            <div class="row">
+                <h2 class="text-center pb-4 pt-4 fw-bold section-title">
+                    Conheça algumas ONGs
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-ongs">
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#crianca-adolescente" class="fw-bold text-start nav-link active">DIREITO DA CRIANÇA E DO ADOLESCENTE</button>
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#mulheres" class="fw-bold text-start nav-link">DIREITO DAS MULHERES</button>
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#equidade-racial" class="fw-bold text-start nav-link">EQUIDADE RACIAL</button>
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#lgbtqia" class="fw-bold text-start nav-link">LGBTQIA+</button>
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#animais" class="fw-bold text-start nav-link">PROTETORA DOS ANIMAIS</button>
+                        <button typoe="button" data-bs-toggle="tab" data-bs-target="#sustentabilidade" class="fw-bold text-start nav-link">SUSTENTABILIDADE</button>
+                    </nav>
+                </aside>
+
+                <div class="col-md-10 ps-5">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="crianca-adolescente">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">ETAPAS</h5>
+                                    <img class="d-block w-100"  src="/ONGS/etapas.png" alt="Logo da ong etapas">
+                                    <p  class="pt-3">A Etapas, na sua Política de Proteção à Crianças e Adolescentes (PPCA), considera as crianças e adolescentes como sujeitos de direitos, em fase de desenvolvimento, na condição de vulnerabilidade, com direitos e deveres individuais e coletivos que devem ser resguardados.</p>
+                                    <a href="https://etapas.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">PÃO DOS POBRES</h5>
+                                    <img class="d-block w-100" src="ONGS/paodospobres.png" alt="Logo da ong Pão dos Pobres">
+                                    <p  class="pt-3">Atualmente, o Pão dos Pobres atende 1,4 mil crianças e adolescentes em seus projetos. A missão da instituição é potencializar o desenvolvimento integral dessas crianças e adolescentes numa perspectiva solidária, construída por meio de práticas socioeducativas.</p>
+                                    <a href="https://www.paodospobres.org.br/site/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">AURA</h5>
+                                    <img class="d-block w-100" src="ONGS/aura.png" alt="">
+                                    <p class="pt-3">A Casa de Apoio Aura é uma instituição de Belo Horizonte que atende crianças e adolescentes com câncer de todo o estado de Minas Gerais. Fundada em 1998, promove suporte terapêutico global às crianças e apoio às suas famílias, através de uma equipe multidisciplinar: médicos, odontólogos, enfermeiros, psicólogos, assistentes sociais, fisioterapeutas, fonoaudiólogos e nutricionistas.</p>
+                                    <a href="https://aura.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="mulheres">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">TAMO JUNTAS</h5>
+                                    <img class="d-block w-100"  src="/ONGS/tamojuntas.jpg" alt="Logo da ong tamo juntas">
+                                    <p  class="pt-3">Organização feminista composta por mulheres profissionais que atuam voluntariamente na assistência multidisciplinar a mulheres em situação de violência e que possui voluntárias em diversas regiões do Brasil.</p>
+                                    <a href="https://tamojuntas.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">AMAC</h5>
+                                    <img class="d-block w-100" src="ONGS/amac.png" alt="Logo da ong amac">
+                                    <p  class="pt-3">A AMAC desenvolve suas atividades no estado do Rio de Janeiro, com sede no município de Duque de Caxias, também fazendo atendimentos via redes sociais para todo o Brasil, tendo como objetivo principal a defesa e garantia de direitos da mulher e famílias vítimas de violência doméstica.</p>
+                                    <a href="https://www.atitudeamac.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">AGATHA</h5>
+                                    <img class="d-block w-100" src="ONGS/agatha.png" alt="Logo da ong Agatha">
+                                    <p class="pt-3">Desde 2015, o Instituto Social Ágatha traz luz e esperança ao estado de Sergipe. Somos mais do que uma organização – somos um movimento incansável pela transformação social e pela justiça, direcionado pela visão de resgatar e celebrar as mulheres em situação de vulnerabilidade. Nossa missão é muito mais do que palavras; é a essência do que acreditamos e do que nos impulsiona todos os dias.</p>
+                                    <a href="https://ongagatha.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="equidade-racial">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">CRIOLA</h5>
+                                    <img class="d-block w-100"  src="/ONGS/criola.png" alt="Logo da ong Criola">
+                                    <p  class="pt-3">Seguindo os passos das nossas ancestrais, Criola completou 30 anos de história em 2022. Nas três décadas de nossa existência, nos dedicamos ao enfrentamento do racismo patriarcal cisheteronormativo e à defesa dos direitos das meninas e mulheres negras cis e trans, criando políticas e pontes seguras para alcançar a justiça e o bem viver.</p>
+                                    <a href="https://criola.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">FOPIR</h5>
+                                    <img class="d-block w-100" src="ONGS/fopir.jpg" alt="Logo do FÓRUM PERMANENTE PARA IGUALDADE RACIAL">
+                                    <p  class="pt-3">É uma coalização de organizações antirracistas que desenvolve estratégias e ações de mobilização, comunicação e incidência política com o objetivo de enfrentar o racismo e promover a igualdade racial e de gênero. Busca ter um impacto em governos, parlamentares, formuladores e operadores de políticas públicas, e mídia, por um estado democrático e inclusivo.</p>
+                                    <a href="http://fopir.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">AGBARA</h5>
+                                    <img class="d-block w-100" src="ONGS/afbara.jpg" alt="Logo da ong AGBARA">
+                                    <p class="pt-3">O Fundo Agbara é o primeiro fundo de mulheres negras do Brasil. Uma organização antirracista e sem fins lucrativos gerida por nove mulheres negras que tem como missão a potencialização de iniciativas de empreendedoras negras periféricas, da Região Metropolitana de Campinas.</p>
+                                    <a href="https://fundoagbara.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="lgbtqia">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">CASA1</h5>
+                                    <img class="d-block w-100"  src="/ONGS/casa1.jpg" alt="Logo da ong Casa1">
+                                    <p  class="pt-3">Fundada em 2017, a Casa 1 é um projeto de sociedade civil que tem como propósito a acolhida de jovens entre 18 e 25 anos que foram expulsos de casa pela família por suas orientações afetivas sexuais e identidade de gênero. O trabalho corre em paralelo às atividades do Centro Cultural e da Clínica Social, com todos os serviços ofertados gratuitamente.</p>
+                                    <a href="https://www.casaum.org/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">+DIVERSIDADE</h5>
+                                    <img class="d-block w-100" src="ONGS/maisdiversidade.png" alt="Logo do instituto mais diversidade">
+                                    <p  class="pt-3">Somos uma organização sem fins lucrativos que mobiliza recursos para articular soluções de alto impacto social. Os projetos sob nossa responsabilidade têm como objetivo a geração de oportunidades que empoderem profissionalmente a comunidade LGBTQIA+ de todo o Brasil.</p>
+                                    <a href="https://www.institutomaisdiversidade.com.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">ETERNAMENTESOU</h5>
+                                    <img class="d-block w-100" src="ONGS/eternamentesou.png" alt="Logo da ong ETERNAMENTE SOU">
+                                    <p class="pt-3">Uma associação sem fins lucrativos que iniciou os trabalhos em 2017 na cidade de São Paulo com objetivo de atuar em prol das pessoas idosas LGBT. Através da implantação de serviços e projetos voltados ao atendimento psicossocial à esta população. </p>
+                                    <a href="https://eternamentesou.org/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="animais">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">SUIPA</h5>
+                                    <img class="d-block w-100"  src="/ONGS/suipa.png" alt="Logo da ong SUIPA">
+                                    <p  class="pt-3">A SUIPA é uma Sociedade Protetora dos Animais. NÃO aceitamos a eutanásia porque acreditamos que todos os animais têm direito à vida, e a vivê-la integralmente, da mesmo forma que nós, humanos, a vivemos. TODOS os animais que chegam à SUIPA recebem tratamento médico e tem assegurada a oportunidade de um lar através da adoção.</p>
+                                    <a href="https://www.suipa.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">CÃO SEM DONO</h5>
+                                    <img class="d-block w-100" src="ONGS/caosemdono.png" alt="Logo da ong cao sem dono">
+                                    <p  class="pt-3">Atualmente a ONG mantém 2 abrigos (a sede fica em Itapecerica da Serra, SP) com 450 animais que são constantemente tratados por veterinários, alimentados com ração de boa qualidade, bebem água potável, dormem em abrigos especialmente construídos e são tratados com muito amor e carinho por todos os funcionários e voluntários que estão sempre visitando as instalações onde ficam os cães.</p>
+                                    <a href="https://www.caosemdono.com.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">PATAS DADAS</h5>
+                                    <img class="d-block w-100" src="ONGS/patasdadas.png" alt="Logo da ong Patas dadas">
+                                    <p class="pt-3">	Resgatar animais em situação de abandono, proporcionando o atendimento veterinário necessário até estarem prontos para a adoção, buscando conscientizar a população da importância da adoção responsável.</p>
+                                    <a href="https://www.patasdadas.com.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="sustentabilidade">
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">LIXO ZERO</h5>
+                                    <img class="d-block w-100"  src="/ONGS/lixozero.jpg" alt="Logo da ong Lixo zero">
+                                    <p  class="pt-3">Temos como objetivo difundir o conceito lixo zero no Brasil e acreditamos que podemos mudar a nossa sociedade através a mudança de comportamento quanto ao consumo e a responsabilidade pelos resíduos provenientes dele. E fazemos isso através de movimentos, palestras, fóruns e eventos.</p>
+                                    <a href="https://ilzb.org/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3 ms-5 me-5">
+                                    <h5 class="mb-4">FASHION REVOLUTION</h5>
+                                    <img class="d-block w-100" src="ONGS/fashion.jpg" alt="Logo da instituição fashion revolution">
+                                    <p  class="pt-3">Somos um movimento global que trabalha para que a moda conserve e restaure o meio ambiente, valorizando as pessoas acima do crescimento e do lucro.</p>
+                                    <a href="https://brasil.fashionrevolution.org/pt/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <h5 class="mb-4">RESTAURA BRASIL</h5>
+                                    <img class="d-block w-100" src="ONGS/restaura.jpeg" alt="Logo da ong Restaura brasil">
+                                    <p class="pt-3">Do seu histórico trabalho de aquisição de terras às suas pesquisas pioneiras, que influenciam políticas globais, a TNC está constantemente se adaptando, para dar conta dos maiores desafios do planeta. Nossa visão é a de um mundo onde a diversidade da vida prospere e onde as pessoas atuem para conservar a natureza, por ela mesma e pelo seu valor para a humanidade.</p>
+                                    <a href="https://www.restaurabrasil.org.br/" class="rounded" target="_blank">SAIBA MAIS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center pb-4 pt-4 fw-bold section-title">
+                    Fale conosco
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-7">
+                    <form>
+                        <div>
+                            <label for="nome" class="form-label pt-2">Seu nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div>
+                            <label for="email" class="form-label pt-2">Seu e-mail</label>
+                            <input type="email" id="email" class="form-control" name="email">
+                        </div>
+                        <div>
+                            <label for="telefone" class="form-label pt-2">Seu telefone</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="pb-4">
+                            <label for="mensagem" class="form-label pt-2">Sua mensagem</label>
+                            <textarea id="mensagem" class="form-control" name="mensagem"></textarea>
+                        </div>
+                        <button type="submit fw-bold" class="btn">Enviar</button>
+                    </form>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title aviso">
+                            AVISO
+                        </h3>
+                        <P>
+                            O projeto não tem ligação com nenhuma ONG específica. É um projeto voluntário que busca dar visibilidade às entidades que realizam algum trabalho social. A lista de ONGs é atualizada a cada três meses para dar visibilidade às diferentes instituições. Não recebemos doações nem fazemos parcerias com nenhuma organização.
+                        </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

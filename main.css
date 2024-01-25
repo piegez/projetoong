@@ -1,0 +1,69 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #B5E0F7;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    text-decoration-line: overline;
+    text-decoration-color: #FFD213;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    background-color: #FFD213;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+textarea {
+    resize: none;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #FFD213;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-ongs .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #FFD213;
+}
+
+.nav-ongs .nav-link {
+    background-color: #F2F2F2;
+    color: #000000;
+    margin-top: 10px;
+}
+.nav-ongs .nav-link.active, 
+#contato button {
+    background-color: #FFD213;
+    color: #fff;
+}
+
+#como-ajudar,
+#contato {
+    background-color: #F2F2F2;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    .aviso {
+        padding-top: 25px;
+    }
+    .tab-pane h5 {
+        padding-top: 25px;
+    }
+}
